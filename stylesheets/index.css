@@ -1,0 +1,93 @@
+.da{
+	width: 1200px;
+	height: 1000px;
+	margin: 50px auto;
+	border: 1px solid black;
+	perspective:1000px;
+ background: url("../img/1.jpg") no-repeat;
+ background-size: cover;
+}
+.a{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	margin-top: -100px;
+	margin-left: -200px;
+	color: white;
+	font-size: 2em;
+	background: rgba(189,184,184,0.1);
+	text-align: center;
+	line-height: 300px;
+	font-weight: bold;
+	border-radius:2%;
+	-webkit-transition:all .5s ease;
+	  box-shadow: 2px 2px 0px rgb(210, 205, 205) ,-2px -2px 0px rgb(187, 186, 186);
+}
+/*.two{
+	-webkit-transform:translateX(-150px)translateZ(-200px);
+}
+.three{
+	-webkit-transform:translateX(150px)translateZ(-200px);
+}
+.four{
+	-webkit-transform:translateX(-300px)translateZ(-400px);
+}
+.five{
+	-webkit-transform:translateX(300px)translateZ(-400px);
+}*/
+body{
+	font-family: "微软雅黑";
+	
+}
+.kuai{
+	
+	margin: 20px auto;
+	width: 400px;
+	height: 640px;
+	background-color: rgba(189,184,184,0.9);
+    background-size: cover;
+
+}
+.xianshi{
+	width: 90%;
+	height: 100px;
+	margin: 30px 16px 10px 16px;
+	border-radius: 4px;
+	border: 2px solid black;
+	background-color: rgba(115,113,113,1);
+	color: black;
+
+	text-align: right;
+	line-height: 100px;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.xianshi1{
+	width: 95%;
+}
+
+.xiaokuai{
+	width: 80px;
+	height: 60px;
+	color: white;
+	font-size: 16px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	margin-left: 16px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px black inset,0 3px 3px black;
+	/*box-shadow: 0 3px 3px black;*/
+	border-radius: 4px;
+	font-weight: bolder;
+}
+.hh{
+	background-color: rgba(43,41,41,0.9);
+}
+.h{
+	background-color: rgba(116,116,116,0.9);
+}
